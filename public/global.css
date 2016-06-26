@@ -307,7 +307,7 @@ hr {
 img.placeholder {
   display: block;
   width: 100%;
-  margin-top: 36px; }
+  margin-bottom: 36px; }
 
 @media (min-width: 442px) {
   h1 {
