@@ -1,0 +1,1 @@
+!function(){var t,e;e=!1,t=$(".primary-pane").attr("data-state","active"),t.on("click",".comments.button",function(n){return n.preventDefault(),n.stopPropagation(),e||FB&&(FB.XFBML.parse(t[0]),e=!0),$(n.target).toggleClass("active"),t.find(".fb-comments").toggle()})}.call(this);
