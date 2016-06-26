@@ -298,6 +298,10 @@ time {
   font-size: 16px;
   line-height: 36px; }
 
+.Taraphoto {
+  margin-top: 200px;
+}
+
 hr {
   height: 35px;
   border: 0;
@@ -969,6 +973,10 @@ img.placeholder {
 @media (min-width: 1030px) {
   .view-types {
     display: block; } }
+
+.div.sidbear {
+  margin-bottom: 568;
+}
 
 .connect-dark-sprite,
 .connect-dark-email,
