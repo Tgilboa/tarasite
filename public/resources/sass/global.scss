@@ -408,7 +408,7 @@ img.placeholder {
 .sidebar nav .social-links li a.connect-facebook:hover,
 .sidebar nav .social-links li a.connect-instagram:hover,
 .sidebar nav .social-links li a.connect-twitter:hover {
-    background: url("/img/connect-s6b51a947c0.png") no-repeat
+    background: url("../images/connect.png") no-repeat
 }
 .connect-email {
     background-position: 0 -128px
@@ -592,12 +592,14 @@ img.placeholder {
         display: block;
         width: 405px;
         height: 600px;
-        background-image: url("/img/boz-photo.png");
+        background-image: url("../images/tara-profile.jpg");
         background-size: 405px 600px;
         position: absolute;
         background-size: 100%;
+        background-position: bottom;
         pointer-events: none;
         display: block;
+        background-repeat: no-repeat;
         top: auto;
         bottom: -110px;
         left: -75px;
@@ -631,7 +633,7 @@ img.placeholder {
         opacity: 0
     }
     body[data-type='about'] .sidebar .boz {
-        background-image: url("/img/boz-photo-color.png")
+        background-image: url("../images/tara-profile-color.jpg")
     }
 }
 .button {
@@ -667,7 +669,7 @@ img.placeholder {
 #home.primary-pane .articles article .comments:before,
 .view-types .list,
 .view-types .grid {
-    background: url("/img/icons-s9e18238d47.png") no-repeat
+    background: url("../images/icons.png") no-repeat
 }
 .icons-comments {
     background-position: 0 -28px
@@ -1036,7 +1038,7 @@ body[data-type='article'] .sidebar .social-links li a.connect-instagram,
 body[data-type='article'] .sidebar .social-links li a.connect-instagram:hover,
 body[data-type='article'] .sidebar .social-links li a.connect-twitter,
 body[data-type='article'] .sidebar .social-links li a.connect-twitter:hover {
-    background: url("/img/connect-dark-s5c399b0949.png") no-repeat
+    background: url("../images/connect-dark.png") no-repeat
 }
 .connect-dark-email {
     background-position: 0 -64px
@@ -1184,7 +1186,7 @@ body[data-type='article'] .sidebar .social-links li a.connect-twitter:hover {
     left: 13px;
     width: 28px;
     height: 28px;
-    background: url("/img/icons/comments.png") left top no-repeat;
+    background: url("../images/icons/comments.png") left top no-repeat;
     pointer-events: none
 }
 .primary-pane.article .content-bin .meta .comments:after,
@@ -1196,7 +1198,7 @@ body[data-type='article'] .sidebar .social-links li a.connect-twitter:hover {
     right: 13px;
     width: 28px;
     height: 28px;
-    background: url("/img/icons/down-arrow.png") left top no-repeat;
+    background: url("../images/icons/down-arrow.png") left top no-repeat;
     pointer-events: none
 }
 .primary-pane.article .content-bin .meta .comments.active:after,
